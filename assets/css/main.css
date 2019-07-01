@@ -22,6 +22,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Indent Intro Text */
+
+ .tab { margin-left: 40px; }
+/* end indent */
+
 body {
 	line-height: 1;
 }
