@@ -22,10 +22,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/*Rounded Img*/
+.me { border-radius: 50%; }
+
 /* Indent Intro Text */
 
  .tab { margin-left: 40px; }
-/* end indent */
+/* end */
 
 body {
 	line-height: 1;
