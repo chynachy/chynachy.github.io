@@ -3139,7 +3139,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #fbfbfb;
+			background-color: #b144f6;
 			color: #999999;
 		}
 
@@ -3613,8 +3613,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		color: #d1e5f9;
+		background-color: #e54674;
+		color: #e6e6e6;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3628,7 +3628,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-image: url(""), url("");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3699,6 +3699,8 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.25);
 		}
 
+/* IS THIS USEFUL? OMIT 
+
 		#header input[type="checkbox"] + label,
 		#header input[type="radio"] + label {
 			color: #d1e5f9;
@@ -3766,6 +3768,8 @@ input, select, textarea {
 				#header .image.phone .inner:after {
 					border-color: rgba(255, 255, 255, 0.25);
 				}
+
+*/ 
 
 		#header ul.alt > li {
 			border-top-color: rgba(255, 255, 255, 0.25);
