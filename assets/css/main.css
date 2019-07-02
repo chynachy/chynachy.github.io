@@ -116,7 +116,7 @@ input, select, textarea {
 
 /* Type */
 
-	body {
+	body {  /* ALL OF THE GRAY TEXT ON THE PAGE --------------------------------*/
 		color: #999999;
 	}
 
@@ -186,6 +186,7 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		letter-spacing: -0.0125em;
 	}
+/*---------------headline color style -------------------------------------------------------*/
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -207,8 +208,10 @@ input, select, textarea {
 	}
 
 	h3 {
+		font-weight: bold; /* made h3s bold------------------*/
 		font-size: 1.5em;
 		line-height: 1.5em;
+		
 	}
 
 	h4 {
@@ -2227,46 +2230,6 @@ input, select, textarea {
 		color: #e0e0e0 !important;
 	}
 
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
-
-	.icon {
-		color: #e0e0e0;
-	}
 
 /* Image */
 
@@ -2323,88 +2286,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.phone {
-			box-shadow: none;
-			border-radius: 0;
-			margin: 0 0 3em 0;
-			width: 13em;
-		}
+		
 
-			.image.phone img {
-				border-radius: 0;
-				display: block;
-				position: relative;
-				width: 100%;
-			}
-
-			.image.phone .inner, .image.phone:before, .image.phone:after {
-				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
-			}
-
-			.image.phone .inner {
-				position: relative;
-			}
-
-				.image.phone .inner:before, .image.phone .inner:after {
-					content: '';
-					position: absolute;
-					left: 50%;
-				}
-
-				.image.phone .inner:before {
-					top: -1.375em;
-					margin-left: -1em;
-					width: 2em;
-					height: 0.25em;
-					border-radius: 0.5em;
-					background: rgba(255, 255, 255, 0.25);
-				}
-
-				.image.phone .inner:after {
-					bottom: -2.75em;
-					margin-left: -1em;
-					width: 2em;
-					height: 2em;
-					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
-				}
-
-			.image.phone:before, .image.phone:after {
-				content: '';
-			}
-
-			.image.phone:before {
-				height: 2.5em;
-				border-radius: 1em 1em 0 0;
-				border-bottom: 0;
-			}
-
-			.image.phone:after {
-				height: 3.5em;
-				border-radius: 0 0 1em 1em;
-				border-top: 0;
-			}
 
 	.image {
 		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 	}
 
-		.image.phone {
-			box-shadow: none;
-		}
 
-			.image.phone .inner, .image.phone:before, .image.phone:after {
-				border-color: #e6e6e6;
-			}
-
-			.image.phone .inner:before {
-				background: #e6e6e6;
-			}
-
-			.image.phone .inner:after {
-				border-color: #e6e6e6;
-			}
 
 /* List */
 
@@ -2584,63 +2473,9 @@ input, select, textarea {
 
 		}
 
-/* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1.5em 0 0;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
-
-			ul.icons li .icon:before {
-				font-size: 1.75rem;
-			}
-
-		ul.icons.major li {
-			padding: 0 2.5em 0 0;
-		}
-
-			ul.icons.major li .icon:before {
-				font-size: 2.75rem;
-			}
-
-		@media screen and (max-width: 736px) {
-
-			ul.icons.major li {
-				padding: 0 1.25em 0 0;
-			}
-
-				ul.icons.major li .icon:before {
-					font-size: 1.75rem;
-				}
-
-		}
-
-		ul.icons.labeled li {
-			margin: 1em 0;
-			padding: 0 2em 0 0;
-		}
-
-			ul.icons.labeled li .icon:before {
-				vertical-align: middle;
-				font-size: 2.25rem;
-				margin-right: 0.5em;
-			}
-
-			ul.icons.labeled li .icon .label {
-				display: inline-block;
-				vertical-align: middle;
-				color: #999999;
-			}
+		/* Icons */
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
@@ -2677,10 +2512,10 @@ input, select, textarea {
 
 	}
 
-/* Section/Article */
+/* Section/Article --------------------- removed center align -----------------------------*/
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -3063,21 +2898,7 @@ input, select, textarea {
 				box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
 			}
 
-				.wrapper.style1 .image.phone {
-					box-shadow: none;
-				}
-
-					.wrapper.style1 .image.phone .inner, .wrapper.style1 .image.phone:before, .wrapper.style1 .image.phone:after {
-						border-color: rgba(255, 255, 255, 0.25);
-					}
-
-					.wrapper.style1 .image.phone .inner:before {
-						background: rgba(255, 255, 255, 0.25);
-					}
-
-					.wrapper.style1 .image.phone .inner:after {
-						border-color: rgba(255, 255, 255, 0.25);
-					}
+				/*-------------------------------------------------------------------*/
 
 			.wrapper.style1 ul.alt > li {
 				border-top-color: rgba(255, 255, 255, 0.25);
@@ -3138,8 +2959,11 @@ input, select, textarea {
 				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
+
+/* Changed Color ------------------------------------------------------- */
+
 		.wrapper.style2 {
-			background-color: #b144f6;
+			background-color: #e54674;
 			color: #999999;
 		}
 
@@ -3578,6 +3402,10 @@ input, select, textarea {
 
 		}
 
+
+/* END WRAPPER STYLES ^^^ */
+
+
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
 		.wrapper {
@@ -3699,78 +3527,9 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.25);
 		}
 
-/* IS THIS USEFUL? OMIT 
 
-		#header input[type="checkbox"] + label,
-		#header input[type="radio"] + label {
-			color: #d1e5f9;
-		}
 
-			#header input[type="checkbox"] + label:before,
-			#header input[type="radio"] + label:before {
-				background-color: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-		#header input[type="checkbox"]:checked + label:before,
-		#header input[type="radio"]:checked + label:before {
-			background-color: #ffffff;
-			border-color: #ffffff;
-			color: #4696e5;
-		}
-
-		#header input[type="checkbox"]:focus + label:before,
-		#header input[type="radio"]:focus + label:before {
-			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
-		}
-
-		#header ::-webkit-input-placeholder {
-			color: #b5d5f5 !important;
-		}
-
-		#header :-moz-placeholder {
-			color: #b5d5f5 !important;
-		}
-
-		#header ::-moz-placeholder {
-			color: #b5d5f5 !important;
-		}
-
-		#header :-ms-input-placeholder {
-			color: #b5d5f5 !important;
-		}
-
-		#header .formerize-placeholder {
-			color: #b5d5f5 !important;
-		}
-
-		#header .icon {
-			color: #b5d5f5;
-		}
-
-		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
-		}
-
-			#header .image.phone {
-				box-shadow: none;
-			}
-
-				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgba(255, 255, 255, 0.25);
-				}
-
-				#header .image.phone .inner:before {
-					background: rgba(255, 255, 255, 0.25);
-				}
-
-				#header .image.phone .inner:after {
-					border-color: rgba(255, 255, 255, 0.25);
-				}
-
-*/ 
-
+/* New Area */
 		#header ul.alt > li {
 			border-top-color: rgba(255, 255, 255, 0.25);
 		}
